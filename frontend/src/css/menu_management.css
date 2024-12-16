@@ -1,0 +1,103 @@
+.header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333333;
+}
+
+/* Grid container for menu items */
+.menu-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    max-height: 400px; /* Set a maximum height for the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.menu-grid-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 100%; /* Ensure it spans full width in the grid */
+    min-width: 220px;
+    height: 100px; /* Fixed height for uniformity */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.menu-item-info {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    width: 70%; /* Limits width to prevent overflow */
+}
+
+.menu-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden; /* Hides overflowed text */
+    text-overflow: ellipsis; /* Adds "..." for overflow */
+}
+
+.product-code {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Button styling */
+.edit-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.negative-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.negative-btn:hover {
+    background-color: #c62828;
+}
+
+.positive-btn {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.positive-btn:hover {
+    background-color: #2e7d32;
+}

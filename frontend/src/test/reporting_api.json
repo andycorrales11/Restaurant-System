@@ -1,0 +1,60 @@
+{
+    "zReportTimestamp": "2024-10-16 15:26:24",
+    "generatedTimestamp": "2024-10-17 15:26:24",
+    "merchandise": {
+        "netSales": 12345.67,
+        "returns": 0.0,
+        "total": 201983.03
+    },
+    "nonmerchandise": {
+        "tax": 235.56,
+        "payIns": 0.0,
+        "payOuts": 0.0,
+        "payOnAccounts": 0.0,
+        "total": 235.56
+    },
+    "salesByCategory": {
+        "Side": {
+            "White Rice": 1
+        },
+        "Entree": {
+            "The Original Orange Chicken": 1
+        },
+        "Appetizer": {
+            "Spring Roll": 1
+        }
+    },
+    "salesByType": {
+        "Meal": {
+            "Bowl": {
+                "quantity": 10,
+                "total": 1.00
+            },
+            "Plate": {
+                "quantity": 10,
+                "total": 1.00
+            },
+            "Bigger Plate": {
+                "quantity": 10,
+                "total": 1.00
+            }
+        },
+        "Other": {
+            "A La Carte": {
+                "quantity": 10,
+                "weightedAvg": 2.0,
+                "total": 1.00
+            },
+            "Appetizer": {
+                "quantity": 10,
+                "weightedAvg": 2.0,
+                "total": 1.00
+            },
+            "Drink": {
+                "quantity": 10,
+                "weightedAvg": 2.0,
+                "total": 1.00
+            }
+        }
+    }
+}

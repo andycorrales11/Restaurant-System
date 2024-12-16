@@ -1,0 +1,141 @@
+.content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.menu-sub-label {
+    font-size: 12px;
+    color: #757575;
+}
+
+/* Grid container for the form, with left and right sections */
+.menu-form-card {
+    max-height: calc(100vh - 9.5rem);
+}
+
+.menu-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+/* Left section for text inputs */
+.form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.left-labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    padding: 8px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/* Right section for checkboxes and remove button */
+.form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group-right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.subtext {
+    font-size: 12px;
+    color: #757575;
+}
+
+.form-group-right-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.positive-btn {
+    background-color: #388e3c;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.positive-btn:hover {
+    background-color: #2e7d32;
+}
+
+.negative-btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.negative-btn:hover {
+    background-color: #c62828;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c62828;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}

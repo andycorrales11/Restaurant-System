@@ -1,0 +1,82 @@
+{        
+    "small_entree": {
+        "uniqueid": 1,
+        "price": 5.2
+    },
+    "medium_entree": {
+        "uniqueid": 2,
+        "price": 8.5
+    },
+    "large_entree": {
+        "uniqueid": 3,
+        "price": 11.2
+    },
+    "medium_side": {
+        "uniqueid": 4,
+        "price": 4.4
+    },
+    "large_side": {
+        "uniqueid": 5,
+        "price": 5.4
+    },
+    "bowl": {
+        "uniqueid": 6,
+        "price": 8.3
+    },
+    "plate": {
+        "uniqueid": 7,
+        "price": 9.8
+    },
+    "bigger_plate": {
+        "uniqueid": 8,
+        "price": 11.3
+    },
+    "roll": {
+        "uniqueid": 9,
+        "price": 2
+    },
+    "large_roll": {
+        "uniqueid": 10,
+        "price": 11.2
+    },
+    "rangoon": {
+        "uniqueid": 11,
+        "price": 2
+    },
+    "large_rangoon": {
+        "uniqueid": 12,
+        "price": 8
+    },
+    "small_apple": {
+        "uniqueid": 13,
+        "price": 2
+    },
+    "med_apple": {
+        "uniqueid": 14,
+        "price": 6.2
+    },
+    "large_apple": {
+        "uniqueid": 15,
+        "price": 8
+    },
+    "small_drink": {
+        "uniqueid": 16,
+        "price": 2.1
+    },
+    "med_drink": {
+        "uniqueid": 17,
+        "price": 2.3
+    },
+    "large_drink": {
+        "uniqueid": 18,
+        "price": 2.5
+    },
+    "water_bottle": {
+        "uniqueid": 19,
+        "price": 2.3
+    },
+    "gatorade": {
+        "uniqueid": 20,
+        "price": 2.7
+    }
+}

@@ -1,0 +1,64 @@
+.navBar {
+    width: 10vw;
+    background-color: #f4f4f4;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+  
+.navBar ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.navBar li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+  
+main {
+    flex: 1;
+    justify-content: center;
+    padding: 20px;
+}
+  
+h1, h2 {
+    margin: 10px 0;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+  
+th {
+    background-color: #eee;
+}
+
+.totalBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inventoryTableContainer {
+    max-height: calc(100vh - 20.5rem);
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+thead, th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}

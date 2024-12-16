@@ -1,0 +1,136 @@
+/* Full-screen kitchen screen wrapper */
+.kitchen-screen-container {
+  display: flex;
+  justify-content: flex-start; /* Align items from the top */
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+  /* Softer background for better contrast */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-y: auto;
+  /* Allow scrolling if content overflows */
+}
+
+/* Center the title and make it bold */
+h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #222;
+  /* Darker text for higher contrast */
+}
+
+/* Flexbox layout for the order cards */
+.orders-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Individual order cell styles */
+.order-cell {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(23% - 20px);
+  /* 4 items per row */
+  min-width: 240px;
+  max-width: 23%;
+  height: 260px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for better interaction feedback */
+.order-cell:hover {
+  transform: translateY(-5px);
+}
+
+/* Order details text alignment */
+.order-details {
+  text-align: center;
+}
+
+/* Order items list style */
+.order-items {
+  font-size: 16px;
+  /* Slightly larger text for readability */
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Time and status alignment */
+.order-time,
+.order-status {
+  margin-top: 12px;
+}
+
+/* Status styling */
+.order-status {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Preparing (green) and Overdue (red) status */
+.order-status {
+  color: #222;
+}
+
+.order-status.Overdue {
+  color: #cc0000;
+  /* Darker red for better contrast */
+}
+
+.order-status.Preparing {
+  color: #007700;
+  /* Darker green for better contrast */
+}
+
+/* Order title styling */
+.order-details h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styles for overdue or waiting orders */
+.order-cell.red {
+  background-color: #ff4d4d;
+  /* More vibrant red for overdue */
+  color: #ffffff;
+  /* Ensure text is readable */
+}
+
+.order-cell.orange {
+  background-color: #ffcc33;
+  /* Bright orange for warning */
+  color: #222;
+  /* Darker text for contrast */
+}
+
+/* Responsive breakpoints for smaller screens */
+@media (max-width: 1000px) {
+  .order-cell {
+    flex: 1 1 calc(48% - 20px);
+    /* Two columns on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .order-cell {
+    flex: 1 1 calc(100% - 20px);
+    /* One column on small screens */
+    min-width: 100%;
+    height: auto;
+  }
+}

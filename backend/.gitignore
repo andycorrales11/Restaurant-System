@@ -1,0 +1,7 @@
+node_modules
+
+# Ignore JS files
+*.js
+
+# Ignore env
+.env

@@ -1,0 +1,284 @@
+{
+    "entree": [
+        {
+            "uniqueid": 2,
+            "name": "Broccoli Beef",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fbroccoli_beef.png?alt=media&token=b025ab93-292e-459f-9090-9f6fd982bf24",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "B1"
+        },
+        {
+            "uniqueid": 4,
+            "name": "Black Pepper Sirloin Steak",
+            "premium": true,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fblack_pepper_sirloin_steak.png?alt=media&token=42e68ea1-5801-4555-b218-47dcfdcfc0fc",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "B4"
+        },
+        {
+            "uniqueid": 5,
+            "name": "Beijing Beef",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fbeijing_beef.png?alt=media&token=dc422cdc-ff8d-425e-a98e-b70eedb9a8fb",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "B5"
+        },
+        {
+            "uniqueid": 6,
+            "name": "The Original Orange Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fthe_original_orange_chicken.png?alt=media&token=6c1eb3d3-6f5a-4a8d-94bf-a5298ed1bb5d",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C1"
+        },
+        {
+            "uniqueid": 7,
+            "name": "Mushroom Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fmushroom_chicken.png?alt=media&token=77db4389-e75e-492b-8f0f-8071f750d7d3",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C2"
+        },
+        {
+            "uniqueid": 8,
+            "name": "Kung Pao Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fkung_pao_chicken.png?alt=media&token=de06a99a-e8b0-483c-b7d1-b86fd2d4eedb",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C3"
+        },
+        {
+            "uniqueid": 9,
+            "name": "Grilled Teriyaki Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fgrilled_teriyaki_chicken.png?alt=media&token=43b4bc5f-9a38-4832-878d-5a074873f613",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C4"
+        },
+        {
+            "uniqueid": 10,
+            "name": "Black Pepper Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fblack_pepper_chicken.png?alt=media&token=e99804c3-7810-41cd-af0b-b1b9adce5876",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C7"
+        },
+        {
+            "uniqueid": 11,
+            "name": "Hot Ones Blazing Bourbon Chicken",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fhot_ones_blazing_bourbon_chicken.png?alt=media&token=12868934-c24c-410a-9b3d-eb6dac02419d",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "C8"
+        },
+        {
+            "uniqueid": 12,
+            "name": "String Bean Chicken Breast",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fstring_bean_chicken_breast.png?alt=media&token=23763298-7284-4ead-905b-9be3449b6543",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "CB1"
+        },
+        {
+            "uniqueid": 13,
+            "name": "Honey Sesame Chicken Breast",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fhoney_sesame_chicken_breast.png?alt=media&token=6af4e800-c911-4510-af72-ab0bebabd552",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "CB3"
+        },
+        {
+            "uniqueid": 15,
+            "name": "SweetFire Chicken Breast",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fsweetfire_chicken_breast.png?alt=media&token=523e7dd6-a664-40a9-992c-3d7c83026c15",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "CB5"
+        },
+        {
+            "uniqueid": 21,
+            "name": "Honey Walnut Shrimp",
+            "premium": true,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fhoney_walnut_shrimp.png?alt=media&token=149a3c7c-e168-4d62-91df-d849610ac316",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            },
+            "menu_code": "F4"
+        }
+    ],
+    "side": [
+        {
+            "uniqueid": 26,
+            "name": "Fried Rice",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Ffried_rice.png?alt=media&token=86bfef74-9882-4680-884f-5c27ca4c8681",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            },
+            "menu_code": "R1"
+        },
+        {
+            "uniqueid": 27,
+            "name": "White Steamed Rice",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fwhite_steamed_rice.png?alt=media&token=9b690ab5-ec60-4033-9688-403a7f69781d",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            },
+            "menu_code": "R2"
+        },
+        {
+            "uniqueid": 32,
+            "name": "Super Greens",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fsuper_greens.png?alt=media&token=37e72279-bc45-41dd-92a4-d6011033a158",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            },
+            "menu_code": "V4"
+        },
+        {
+            "uniqueid": 24,
+            "name": "Chow Mein",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fchow_mein.png?alt=media&token=70a6bc37-ace6-4e5b-acaa-0debf3a05559",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            },
+            "menu_code": "M1"
+        }
+    ],
+    "appetizer": [
+        {
+            "uniqueid": 17,
+            "name": "Vegetable Spring Roll",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fvegetable_spring_roll.png?alt=media&token=87bdc988-7a02-4a30-aba8-22eceb4f3f06",
+            "available_sizes": {
+                "small": "roll",
+                "large": "large_roll"
+            },
+            "menu_code": "E1"
+        },
+        {
+            "uniqueid": 18,
+            "name": "Chicken Egg Roll",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fchicken_egg_roll.png?alt=media&token=62f1bd28-544a-402a-afd6-e5dd70c49e15",
+            "available_sizes": {
+                "small": "roll",
+                "large": "large_roll"
+            },
+            "menu_code": "E2"
+        },
+        {
+            "uniqueid": 19,
+            "name": "Cream Cheese Rangoon",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fcream_cheese_rangoon.png?alt=media&token=53f1b5d4-cc64-49cf-aab8-db08a1caa9c8",
+            "available_sizes": {
+                "small": "rangoon",
+                "large": "large_rangoon"
+            },
+            "menu_code": "E3"
+        },
+        {
+            "uniqueid": 20,
+            "name": "Apple Pie Roll",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fapple_pie_roll.png?alt=media&token=247d55d5-65ef-486b-a2be-5696c78998aa",
+            "available_sizes": {
+                "small": "small_apple",
+                "medium": "med_apple",
+                "large": "large_apple"
+            },
+            "menu_code": "E7"
+        }
+    ],
+    "drink": [
+        {
+            "uniqueid": 998,
+            "name": "Aquafina",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fwater_bottle.png?alt=media&token=79ff36db-0ae9-4fea-8ba9-c5a11d1ea97e",
+            "available_sizes": {
+                "medium": "water_bottle"
+            }
+        },
+        {
+            "uniqueid": 997,
+            "name": "Gatorade",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fgatorade.png?alt=media&token=402f556c-f047-4489-a0a1-f68e1d07bafa",
+            "available_sizes": {
+                "medium": "gatorade"
+            }
+        },
+        {
+            "uniqueid": 999,
+            "name": "Soft Drink",
+            "premium": false,
+            "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/menu_item%2Fsoft_drink.png?alt=media&token=20b02afa-db14-46be-876b-50f8dfd75f06",
+            "available_sizes": {
+                "small": "small_drink",
+                "medium": "med_drink",
+                "large": "large_drink"
+            }
+        }
+    ]
+}

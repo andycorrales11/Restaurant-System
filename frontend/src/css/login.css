@@ -1,0 +1,88 @@
+.stack-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-label {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40; /* Darkened for better contrast */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 24px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.error-label {
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+.keyboard {
+    margin-top: 30px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.keyboard-key {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.keyboard-key:hover {
+    background-color: #e9ecef;
+}
+
+.wide-key {
+    width: 140px;
+}
+
+

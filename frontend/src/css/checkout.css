@@ -1,0 +1,22 @@
+/* Buttons */
+.btn-item {
+    transition: none !important;
+    color: black !important;
+    background-color: white !important;
+    border: black solid 5px !important;
+    height: 8vh;
+}
+.btn-item.selected {
+    color: white !important;
+    font-weight: bold;
+    background-color: var(--panda-red) !important;
+    border-color: transparent !important;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+.btn-item:disabled {
+    opacity: 50% !important;
+}
+
+.btn-item.square {
+    width: 8vh;
+}

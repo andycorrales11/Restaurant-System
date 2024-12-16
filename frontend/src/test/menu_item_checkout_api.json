@@ -1,0 +1,172 @@
+{
+    "entree": [
+        {
+            "uniqueid": 2,
+            "name": "Broccoli Beef",
+            "premium": false,
+            "menu_code": "B1",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            }
+        },
+        {
+            "uniqueid": 4,
+            "name": "Black Pepper Sirloin Steak",
+            "premium": true,
+            "menu_code": "B4",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            }
+        },
+        {
+            "uniqueid": 5,
+            "name": "Beijing Beef",
+            "premium": false,
+            "menu_code": "B5",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            }
+        },
+        {
+            "uniqueid": 6,
+            "name": "The Original Orange Chicken",
+            "premium": false,
+            "menu_code": "C1",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            }
+        },
+        {
+            "uniqueid": 15,
+            "name": "SweetFire Chicken Breast",
+            "premium": false,
+            "menu_code": "CB5",
+            "available_sizes": {
+                "small": "small_entree",
+                "medium": "medium_entree",
+                "large": "large_entree"
+            }
+        }
+    ],
+    "side": [
+        {
+            "uniqueid": 24,
+            "name": "Chow Mein",
+            "premium": false,
+            "menu_code": "M1",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            }
+        },
+        {
+            "uniqueid": 26,
+            "name": "Fried Rice",
+            "premium": false,
+            "menu_code": "R1",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            }
+        },
+        {
+            "uniqueid": 27,
+            "name": "White Steamed Rice",
+            "premium": false,
+            "menu_code": "R2",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            }
+        },
+        {
+            "uniqueid": 32,
+            "name": "Super Greens",
+            "premium": false,
+            "menu_code": "V4",
+            "available_sizes": {
+                "medium": "medium_side",
+                "large": "large_side"
+            }
+        }
+    ],
+    "appetizer": [
+        {
+            "uniqueid": 17,
+            "name": "Vegetable Spring Roll",
+            "premium": false,
+            "menu_code": "E1",
+            "available_sizes": {
+                "small": "roll",
+                "large": "large_roll"
+            }
+        },
+        {
+            "uniqueid": 18,
+            "name": "Chicken Egg Roll",
+            "premium": false,
+            "menu_code": "E2",
+            "available_sizes": {
+                "small": "roll",
+                "large": "large_roll"
+            }
+        },
+        {
+            "uniqueid": 19,
+            "name": "Cream Cheese Rangoon",
+            "premium": false,
+            "menu_code": "E3",
+            "available_sizes": {
+                "small": "rangoon",
+                "large": "large_rangoon"
+            }
+        },
+        {
+            "uniqueid": 20,
+            "name": "Apple Pie Roll",
+            "premium": false,
+            "menu_code": "E7",
+            "available_sizes": {
+                "small": "small_apple",
+                "medium": "med_apple",
+                "large": "large_apple"
+            }
+        }
+    ],
+    "drink": [
+        {
+            "uniqueid": 999,
+            "name": "Soft Drink",
+            "premium": false,
+            "available_sizes": {
+                "small": "small_drink",
+                "medium": "med_drink",
+                "large": "large_drink"
+            }
+        },
+        {
+            "uniqueid": 999,
+            "name": "Aquafina",
+            "premium": false,
+            "available_sizes": {
+                "medium": "water_bottle"
+            }
+        },
+        {
+            "uniqueid": 999,
+            "name": "Gatorade",
+            "premium": false,
+            "available_sizes": {
+                "medium": "gatorade"
+            }
+        }
+    ]
+}

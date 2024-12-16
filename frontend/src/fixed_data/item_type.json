@@ -1,0 +1,50 @@
+{
+    "Bowl": {
+        "item_type": ["bowl"],
+        "categories": ["side", "entree"],
+        "desc": "1 Side & 1 Entree",
+        "side_count": 1,
+        "entree_count": 1,
+        "cal": "280-1130",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fbowl.png?alt=media&token=b2c5c73b-2fce-4600-a0a2-7da1ba9aca4d"
+    },
+    "Plate": {
+        "item_type": ["plate"],
+        "categories": ["side", "entree"],
+        "desc": "1 Side & 2 Entrees",
+        "side_count": 1,
+        "entree_count": 2,
+        "cal": "430-1640",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fplate.png?alt=media&token=602680bb-0722-43ff-ba0b-1573f5ebd626"
+    },
+    "Bigger Plate": {
+        "item_type": ["bigger_plate"],
+        "categories": ["side", "entree"],
+        "desc": "1 Side & 3 Entrees",
+        "side_count": 1,
+        "entree_count": 3,
+        "cal": "580-2150",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fbigger_plate.png?alt=media&token=0ec22046-8171-4672-8c60-a53a6bcf2d50"
+    },
+    "A La Carte": {
+        "item_type": ["small_entree", "medium_entree", "large_entree", "medium_side", "large_side"],
+        "categories": ["side", "entree"],
+        "desc": "Individual Entrees & Sides",
+        "cal": "130-620",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fa_la_carte.png?alt=media&token=c3f6a766-0498-4d0b-ab42-1bd6f1b7e894"
+    },
+    "Appetizers": {
+        "item_type": ["roll", "large_roll", "rangoon", "large_rangoon", "small_apple", "med_apple", "large_apple"],
+        "categories": ["appetizer"],
+        "desc": "Appetizers & More",
+        "cal": "150",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fappetizer.png?alt=media&token=dc9d2ddc-0afd-4b03-be55-6b2ea5211e52"
+    },
+    "Drinks": {
+        "item_type": ["small_drink", "med_drink", "large_drink", "water_bottle", "gatorade"],
+        "categories": ["drink"],
+        "desc": "Refreshing Beferage",
+        "cal": "0-570",
+        "blob": "https://firebasestorage.googleapis.com/v0/b/dugg-source.appspot.com/o/item_type%2Fdrink.png?alt=media&token=233d0946-3933-4567-b2dc-39e8a449b183"
+    }
+}
